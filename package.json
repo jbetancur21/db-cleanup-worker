@@ -1,15 +1,10 @@
 {
   "name": "db-cleanup-worker",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node cleanup.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "pg": "^8.17.0"
+    "pg": "^8.11.0"
   }
 }
